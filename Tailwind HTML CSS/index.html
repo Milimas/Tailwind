@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/tailwind.css">
+    <title>Tailwind practice</title>
+</head>
+
+<body class="bg-gray-100">
+    <div class="bg-gray-100 grid lg:grid-cols-2">
+        <div class="px-8 py-12 max-w-md m-auto sm:max-w-xl lg:px-12 lg:py-24 lg:max-w-full">
+            <img class="h-10" src="assets/One-Piece.ico" alt="One Piece">
+            <img class="mt-6 rounded-lg shadow-xl sm:mt-8 sm:h-96 sm:w-full sm:object-cover object-top lg:hidden"
+                src="assets/kaidu.jpg" alt="kaidu">
+            <h1 class="mt-6 text-2xl font-bold text-gray-900 sm:mt-8 sm:text-3xl lg:text-2xl">You can work from any
+                where. <br>
+                <span class="text-indigo-500">Take advantage of it.</span>
+            </h1>
+            <p class="mt-2 text-gray-600 sm:mt-4 sm:text-xl">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum eos deserunt asperiores voluptates
+                deleniti
+                temporibus debitis sed blanditiis libero? Labore placeat et ipsam voluptate quibusdam architecto eos,
+                molestiae cupiditate beatae.
+            </p>
+            <div class="mt-4 sm:mt-6">
+                <a href="#" class="btn">Book
+                    your
+                    escape</a>
+            </div>
+        </div>
+        <div class="hidden relative lg:block">
+            <img class="absolute inset-0 w-full h-full object-cover object-top" src="assets/kaidu.jpg" alt="kaidu">
+        </div>
+    </div><!-- hero section  -->
+
+</body>
+
+</html>

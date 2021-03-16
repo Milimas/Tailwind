@@ -47,7 +47,7 @@ function App() {
     <div className="space-y-4 py-12 px-2 grid lg:grid-cols-3 md:grid-cols-2">
       {data.map(x=>console.log(x.location))}
       {data && data.map(user => (
-        <Card props={{img:user.picture.large,title: `${user.name.title} ${user.name.first} ${user.name.last}`,body:`${user.location.city}, ${user.location.state}, ${user.location.counrty}`}} />
+        <Card props={{img:user.picture.large,title: `${user.name.title} ${user.name.first} ${user.name.last}`,body:`${user.location.city}, ${user.location.state}, ${user.location.country}`}} />
       ))}
     </div>
     </>
